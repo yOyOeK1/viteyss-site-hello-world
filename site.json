@@ -1,0 +1,16 @@
+{
+    "oName": "s_vysHelloPage",
+    "o": null,
+    "dir": "viteyss-site-hello-world",
+    "asModule": true,
+    "asVite": true,
+    "asPlugin": true,
+    "jssrc":["c_vysHelloPage.js"],
+    "enable": true,
+    "author": "Bartłomiej Ceglik <yoyoek@wp.pl>",
+    "ver": "0.0.1",
+    "desc": "Test of viteyss-site- plugin system Hello World!",
+    "otdm":{
+        "playground": false
+    }
+}
