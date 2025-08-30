@@ -1,25 +1,21 @@
 
 
-//a xx 3
-class s_vysHelloPage{
+
+class s_vysHelloWolrdPage{
 
   constructor(){
   }
   
   get getName(){
     return `vys Hello World`;
-    
   }
-  
-  
+    
   
   get getDefaultBackgroundColor(){
     return "#ffffff";
-    
   }
   
   getHtml = () => {
-
 
     return `<b>${this.getName}</b><br>
     <img src="${this.homeUrl}assets/ico_viteyss_32.png"><br>
@@ -31,18 +27,18 @@ class s_vysHelloPage{
     Ver: ${this.instanceOf.ver}
 
     More ditails in \`./site.json\`
-    </pre>`;
+    </pre>
+    
+    `;
 
   }
 
   getHtmlAfterLoad = () =>{
     cl(`${this.getName} - getHtmlAfterLoad()`);
-
   }
 
   get svgDyno(){
     return '';
-
   }
 
   svgDynoAfterLoad(){
@@ -50,10 +46,10 @@ class s_vysHelloPage{
   }
 
   onMessageCallBack = ( r ) => {
-    cl( `[cb] ${this.getName} - got msg `);
+    cl( `${this.getName} [cb] - got msg `);
 
   }
 
 }
 
-export { s_vysHelloPage };
+export { s_vysHelloWolrdPage };
